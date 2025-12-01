@@ -1,0 +1,14 @@
+name: Build EdTech Project Structure
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Placeholder
+      run: echo "Workflow setup successful!"
